@@ -67,3 +67,47 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.search-button {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button button {
+  padding: 10px 18px;
+  margin: 0 5px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  color: #202124;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  display: flex;
+  flex: 2 1;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #e6e7e9;
+}
+
+.bottom-nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.bottom-nav-menu a {
+  display: block;
+  padding: 15px;
+  color: #70757a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
