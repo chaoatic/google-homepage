@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.search-box {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  border: 1px solid #e1e3e7;
+  border-radius: 24px;
+  width: 582px;
+  height: 44px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  padding: 0 16px 0 16px;
+}
+
+.search-form input[type="text"] {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border: 0;
+  outline: none;
+}
